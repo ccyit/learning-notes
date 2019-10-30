@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		42218E7F2369C30A00D52AF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42218E7E2369C30A00D52AF0 /* AppDelegate.m */; };
 		42218E822369C30A00D52AF0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42218E812369C30A00D52AF0 /* SceneDelegate.m */; };
-		42218E852369C30A00D52AF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42218E842369C30A00D52AF0 /* ViewController.m */; };
 		42218E882369C30A00D52AF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42218E862369C30A00D52AF0 /* Main.storyboard */; };
 		42218E8A2369C30B00D52AF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42218E892369C30B00D52AF0 /* Assets.xcassets */; };
 		42218E8D2369C30B00D52AF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42218E8B2369C30B00D52AF0 /* LaunchScreen.storyboard */; };
 		42218E902369C30B00D52AF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42218E8F2369C30B00D52AF0 /* main.m */; };
 		42218E9A2369C30B00D52AF0 /* MyBookStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42218E992369C30B00D52AF0 /* MyBookStoreTests.m */; };
 		42218EA52369C30B00D52AF0 /* MyBookStoreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42218EA42369C30B00D52AF0 /* MyBookStoreUITests.m */; };
+		42218EB42369C38B00D52AF0 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 42218EB32369C38B00D52AF0 /* Book.m */; };
+		42218EB72369C58900D52AF0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42218EB62369C58900D52AF0 /* MainViewController.m */; };
+		42218EBA2369C61900D52AF0 /* BookStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 42218EB92369C61900D52AF0 /* BookStore.m */; };
+		42218EBD2369CC0D00D52AF0 /* BookDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42218EBC2369CC0D00D52AF0 /* BookDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +44,6 @@
 		42218E7E2369C30A00D52AF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		42218E802369C30A00D52AF0 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		42218E812369C30A00D52AF0 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		42218E832369C30A00D52AF0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		42218E842369C30A00D52AF0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		42218E872369C30A00D52AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42218E892369C30B00D52AF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42218E8C2369C30B00D52AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +55,14 @@
 		42218EA02369C30B00D52AF0 /* MyBookStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBookStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42218EA42369C30B00D52AF0 /* MyBookStoreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyBookStoreUITests.m; sourceTree = "<group>"; };
 		42218EA62369C30B00D52AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42218EB22369C38B00D52AF0 /* Book.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		42218EB32369C38B00D52AF0 /* Book.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		42218EB52369C58900D52AF0 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		42218EB62369C58900D52AF0 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		42218EB82369C61900D52AF0 /* BookStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookStore.h; sourceTree = "<group>"; };
+		42218EB92369C61900D52AF0 /* BookStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookStore.m; sourceTree = "<group>"; };
+		42218EBB2369CC0D00D52AF0 /* BookDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookDetailViewController.h; sourceTree = "<group>"; };
+		42218EBC2369CC0D00D52AF0 /* BookDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +117,14 @@
 				42218E7E2369C30A00D52AF0 /* AppDelegate.m */,
 				42218E802369C30A00D52AF0 /* SceneDelegate.h */,
 				42218E812369C30A00D52AF0 /* SceneDelegate.m */,
-				42218E832369C30A00D52AF0 /* ViewController.h */,
-				42218E842369C30A00D52AF0 /* ViewController.m */,
+				42218EB22369C38B00D52AF0 /* Book.h */,
+				42218EB32369C38B00D52AF0 /* Book.m */,
+				42218EB82369C61900D52AF0 /* BookStore.h */,
+				42218EB92369C61900D52AF0 /* BookStore.m */,
+				42218EB52369C58900D52AF0 /* MainViewController.h */,
+				42218EB62369C58900D52AF0 /* MainViewController.m */,
+				42218EBB2369CC0D00D52AF0 /* BookDetailViewController.h */,
+				42218EBC2369CC0D00D52AF0 /* BookDetailViewController.m */,
 				42218E862369C30A00D52AF0 /* Main.storyboard */,
 				42218E892369C30B00D52AF0 /* Assets.xcassets */,
 				42218E8B2369C30B00D52AF0 /* LaunchScreen.storyboard */,
@@ -267,9 +282,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42218E852369C30A00D52AF0 /* ViewController.m in Sources */,
+				42218EB42369C38B00D52AF0 /* Book.m in Sources */,
 				42218E7F2369C30A00D52AF0 /* AppDelegate.m in Sources */,
 				42218E902369C30B00D52AF0 /* main.m in Sources */,
+				42218EB72369C58900D52AF0 /* MainViewController.m in Sources */,
+				42218EBA2369C61900D52AF0 /* BookStore.m in Sources */,
+				42218EBD2369CC0D00D52AF0 /* BookDetailViewController.m in Sources */,
 				42218E822369C30A00D52AF0 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
