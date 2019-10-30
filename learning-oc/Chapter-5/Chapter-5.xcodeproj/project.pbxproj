@@ -17,6 +17,7 @@
 		42218DC42369A6C300D52AF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42218DC32369A6C300D52AF0 /* main.m */; };
 		42218DCE2369A6C300D52AF0 /* Chapter_5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42218DCD2369A6C300D52AF0 /* Chapter_5Tests.m */; };
 		42218DD92369A6C300D52AF0 /* Chapter_5UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42218DD82369A6C300D52AF0 /* Chapter_5UITests.m */; };
+		42218DE82369A8DD00D52AF0 /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = 42218DE72369A8DD00D52AF0 /* Customer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		42218DD42369A6C300D52AF0 /* Chapter-5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chapter-5UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42218DD82369A6C300D52AF0 /* Chapter_5UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chapter_5UITests.m; sourceTree = "<group>"; };
 		42218DDA2369A6C300D52AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42218DE62369A8DD00D52AF0 /* Customer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		42218DE72369A8DD00D52AF0 /* Customer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				42218DB52369A6C200D52AF0 /* MasterViewController.m */,
 				42218DB72369A6C200D52AF0 /* DetailViewController.h */,
 				42218DB82369A6C200D52AF0 /* DetailViewController.m */,
+				42218DE62369A8DD00D52AF0 /* Customer.h */,
+				42218DE72369A8DD00D52AF0 /* Customer.m */,
 				42218DBA2369A6C200D52AF0 /* Main.storyboard */,
 				42218DBD2369A6C300D52AF0 /* Assets.xcassets */,
 				42218DBF2369A6C300D52AF0 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42218DC42369A6C300D52AF0 /* main.m in Sources */,
+				42218DE82369A8DD00D52AF0 /* Customer.m in Sources */,
 				42218DB02369A6C200D52AF0 /* AppDelegate.m in Sources */,
 				42218DB62369A6C200D52AF0 /* MasterViewController.m in Sources */,
 				42218DB32369A6C200D52AF0 /* SceneDelegate.m in Sources */,
