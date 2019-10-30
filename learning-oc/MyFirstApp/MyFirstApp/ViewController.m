@@ -19,5 +19,8 @@
     // Do any additional setup after loading the view.
 }
 
+- (IBAction)showName:(id)sender{
+    self.nameLabel.text = @"My name is Awesome";
+}
 
 @end
