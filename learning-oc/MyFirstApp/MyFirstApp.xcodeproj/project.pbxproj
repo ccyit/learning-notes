@@ -16,6 +16,7 @@
 		42218E4C2369AADA00D52AF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42218E4B2369AADA00D52AF0 /* main.m */; };
 		42218E562369AADA00D52AF0 /* MyFirstAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42218E552369AADA00D52AF0 /* MyFirstAppTests.m */; };
 		42218E612369AADA00D52AF0 /* MyFirstAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42218E602369AADA00D52AF0 /* MyFirstAppUITests.m */; };
+		42218E702369B27A00D52AF0 /* SimpleLabelData.m in Sources */ = {isa = PBXBuildFile; fileRef = 42218E6F2369B27A00D52AF0 /* SimpleLabelData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		42218E5C2369AADA00D52AF0 /* MyFirstAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42218E602369AADA00D52AF0 /* MyFirstAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstAppUITests.m; sourceTree = "<group>"; };
 		42218E622369AADA00D52AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42218E6E2369B27A00D52AF0 /* SimpleLabelData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleLabelData.h; sourceTree = "<group>"; };
+		42218E6F2369B27A00D52AF0 /* SimpleLabelData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleLabelData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				42218E3D2369AADA00D52AF0 /* SceneDelegate.m */,
 				42218E3F2369AADA00D52AF0 /* ViewController.h */,
 				42218E402369AADA00D52AF0 /* ViewController.m */,
+				42218E6E2369B27A00D52AF0 /* SimpleLabelData.h */,
+				42218E6F2369B27A00D52AF0 /* SimpleLabelData.m */,
 				42218E422369AADA00D52AF0 /* Main.storyboard */,
 				42218E452369AADA00D52AF0 /* Assets.xcassets */,
 				42218E472369AADA00D52AF0 /* LaunchScreen.storyboard */,
@@ -268,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42218E412369AADA00D52AF0 /* ViewController.m in Sources */,
+				42218E702369B27A00D52AF0 /* SimpleLabelData.m in Sources */,
 				42218E3B2369AADA00D52AF0 /* AppDelegate.m in Sources */,
 				42218E4C2369AADA00D52AF0 /* main.m in Sources */,
 				42218E3E2369AADA00D52AF0 /* SceneDelegate.m in Sources */,

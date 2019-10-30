@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SimpleLabelData.h"
 
 @interface ViewController ()
 
@@ -20,7 +21,15 @@
 }
 
 - (IBAction)showName:(id)sender{
-    self.nameLabel.text = @"My name is Awesome";
+    
+    SimpleLabelData *one = [SimpleLabelData simpleLabelDataWithTitle:@"First Name" andValue:@"John"];
+    self.firstLabel.text = [one combinedString];
+    
+    SimpleLabelData *tow = [SimpleLabelData simpleLabelDataWithTitle:@"Last Name" andValue:@"Snow"];
+       self.secondLabel.text = [tow combinedString];
+    
+    SimpleLabelData *three = [SimpleLabelData simpleLabelDataWithTitle:@"Age" andValue:@"Unknown"];
+       self.thirdLabel.text = [three combinedString];
 }
 
 @end

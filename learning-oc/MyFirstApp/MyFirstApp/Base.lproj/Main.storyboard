@@ -35,26 +35,52 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a5c-uv-85R">
+                                <rect key="frame" x="20" y="314" width="335" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="jUm-0T-oMN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tYf-7l-8Ji">
+                                <rect key="frame" x="20" y="404" width="335" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="69a-lP-nex"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="beV-We-0Ue" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="2yI-bI-AqO"/>
+                            <constraint firstItem="tYf-7l-8Ji" firstAttribute="top" secondItem="a5c-uv-85R" secondAttribute="bottom" constant="50" id="4Cy-4t-24w"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="beV-We-0Ue" secondAttribute="trailing" constant="20" id="9va-Xn-7zc"/>
+                            <constraint firstItem="a5c-uv-85R" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="HYE-zo-Rey"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="drt-XP-A7A" secondAttribute="trailing" constant="20" id="L2U-dA-MwG"/>
                             <constraint firstItem="beV-We-0Ue" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="NNr-bH-TLB"/>
+                            <constraint firstItem="a5c-uv-85R" firstAttribute="top" secondItem="drt-XP-A7A" secondAttribute="bottom" constant="50" id="WXq-Tk-gID"/>
+                            <constraint firstItem="tYf-7l-8Ji" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="aQ3-15-WHD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tYf-7l-8Ji" secondAttribute="trailing" constant="20" id="d3S-TO-vZm"/>
                             <constraint firstItem="drt-XP-A7A" firstAttribute="top" secondItem="beV-We-0Ue" secondAttribute="bottom" constant="120" id="eIa-1J-0Oe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="a5c-uv-85R" secondAttribute="trailing" constant="20" id="gGK-JK-hnw"/>
                             <constraint firstItem="drt-XP-A7A" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="jBL-S6-h6h"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="XpL-Ib-DQ4"/>
                     <connections>
-                        <outlet property="nameLabel" destination="drt-XP-A7A" id="Xkt-AP-kkB"/>
+                        <outlet property="firstLabel" destination="drt-XP-A7A" id="9yM-1S-378"/>
+                        <outlet property="secondLabel" destination="a5c-uv-85R" id="hOK-Dc-4aa"/>
+                        <outlet property="thirdLabel" destination="tYf-7l-8Ji" id="kxd-QS-fdv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="855.07246376811599" y="104.46428571428571"/>
+            <point key="canvasLocation" x="633" y="104"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="wcH-o6-V3l">
